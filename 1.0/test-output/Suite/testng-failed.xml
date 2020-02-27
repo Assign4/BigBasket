@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Driver.Listener"/>
+    <listener class-name="Driver.ExtentReporterNG"/>
+  </listeners>
+  <test name="ParticularTest(failed)">
+    <classes>
+      <class name="Test.TestCase">
+        <methods>
+          <include name="addItem"/>
+          <include name="add_MultipleItems"/>
+          <include name="launchMyAccountHome"/>
+        </methods>
+      </class> <!-- Test.TestCase -->
+    </classes>
+  </test> <!-- ParticularTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
